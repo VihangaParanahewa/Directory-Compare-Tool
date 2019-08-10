@@ -1,0 +1,13 @@
+{
+
+	"IncludeFiles" : [],
+
+	"IgnoredFiles" : ["*.zip", "*.log", "*.txt", "*.req", "*.CSV", "*.xml"],
+
+	"ContentFilter" : [],
+	"_comment" : "Use these keywords to use above ContentFilter",
+	"_comment2": "Date,Time, Credentials",
+	"_comment3" : "Credentials -> Skip username and password changes if include in the diff content, Date -> Skip Date changes if include in the diff content, Time -> Skip Time changes if include in the diff content"
+
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "dirtool",
+  "version": "1.0.0",
+  "description": "Cambio Directory Compare Tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "Vihanga Paranahewa",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.19.0",
+    "diff": "^4.0.1",
+    "dir-compare": "^1.7.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.1.0",
+    "jsonfile": "^5.0.0",
+    "wildcard": "^2.0.0"
+  }
+}

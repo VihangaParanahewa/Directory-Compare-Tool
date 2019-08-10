@@ -1,0 +1,25 @@
+body {
+    padding: 75px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    width: 100px;
+    max-width: 100px; /* add this */
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+.table tr {
+    cursor: pointer;
+}
+
